@@ -4,7 +4,6 @@ class ColaFIFO:
     def __init__(self):
         self.elementos = []
 
-
     def insertar(self, dato):
         self.elementos.append(dato)
         return dato
