@@ -4,7 +4,6 @@ import random
 import logging
 from ColaFIFO import ColaFIFO
 
-#logging.basicConfig(format='%(asctime)s.%(msecs)03d [%(threadName)s] - %(message)s', datefmt='%H:%M:%S', level=logging.INFO)
 logging.basicConfig(format='%(asctime)s.%(msecs)03d [%(threadName)s] - %(message)s', datefmt='%H:%M:%S', level=logging.INFO)
 
 class Productor(threading.Thread):
