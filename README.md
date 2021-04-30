@@ -33,7 +33,7 @@ El script incluye una función ***main()*** cuyo propósito es probar los métod
 
 2. En un archivo python separado, importar la clase ColaFIFO, instanciar una cola de ésta clase y luego implementar un programa que ejecute las siguientes threads:
 
-	 - Una thread (productor) que ejecute un loop infinito que en cada iteración inserte en la cola un valor numérico generado aleatoriamente (con valores entre 0 y 100), imprima un mensaje de logging indicando que se realizó la inserción y espere (sleep) y luego espere 2 segundos.
+	 - Una thread (productor) que ejecute un loop infinito que en cada iteración inserte en la cola un valor numérico generado aleatoriamente (con valores entre 0 y 100), imprima un mensaje de logging indicando que se realizó la inserción y espere (sleep) dos segundos.
 	
 	  **Esta thread debe recibir como argumentos un objeto ColaFIFO y un valor numérico (retardo), inicialmente de 2 segundos.**
 		  Por ejemplo:
