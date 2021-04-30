@@ -18,6 +18,7 @@ class ColaFIFO:
     def primero(self):
         return self.elementos[0]
 
+    #def cola_vacia(self):
     def cola_vacia(self):
         return len(self.elementos) == 0
 
