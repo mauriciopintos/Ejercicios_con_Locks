@@ -38,9 +38,9 @@ class Consumidor(threading.Thread):
 
 def main():
     hilos = []
-    cola = ColaFIFOsize(8)
+    cola = ColaFIFOsize(10)
 
-    for i in range(3):
+    for i in range(5):
         productor = Productor(cola,random.randint(1,5))
         consumidor = Consumidor(cola,random.randint(1,5))
 
